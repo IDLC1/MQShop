@@ -9,6 +9,12 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>shop-pojo</artifactId>
+    <artifactId>shop-web</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>shop-order-web</module>
+        <module>shop-pay-web</module>
+    </modules>
+
 
 </project>

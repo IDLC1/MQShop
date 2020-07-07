@@ -9,6 +9,16 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>shop-pojo</artifactId>
+    <artifactId>shop-service</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>shop-coupon-service</module>
+        <module>shop-goods-service</module>
+        <module>shop-goods-service</module>
+        <module>shop-user-service</module>
+        <module>shop-order-service</module>
+        <module>shop-pay-service</module>
+    </modules>
+
 
 </project>
