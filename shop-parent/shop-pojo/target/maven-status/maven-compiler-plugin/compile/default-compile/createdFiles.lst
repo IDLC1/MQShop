@@ -1,0 +1,11 @@
+com\tom\entity\Result.class
+com\tom\pojo\TradeGoodsNumberLog.class
+com\tom\pojo\TradeUserMoneyLog.class
+com\tom\pojo\TradeGoods.class
+com\tom\pojo\TradeMqProducerTemp.class
+com\tom\pojo\TradeUser.class
+com\tom\entity\MQEntity.class
+com\tom\pojo\TradePay.class
+com\tom\pojo\TradeMqConsumerLog.class
+com\tom\pojo\TradeCoupon.class
+com\tom\pojo\TradeOrder.class

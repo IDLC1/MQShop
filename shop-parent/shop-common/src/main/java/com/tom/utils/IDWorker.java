@@ -93,5 +93,4 @@ public class IDWorker {
             System.out.println(idWorker.nextId());
         }
     }
-
 }

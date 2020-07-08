@@ -1,49 +1,128 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e56c13e3-79d0-4d43-8213-541b47bc6dbc" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="e56c13e3-79d0-4d43-8213-541b47bc6dbc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-api/src/main/java/com/tom/service/ICouponService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-api/src/main/java/com/tom/service/IGoodsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-api/src/main/java/com/tom/service/IOrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-api/src/main/java/com/tom/service/IUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-pojo/src/main/java/com/tom/pojo/TradeCoupon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-pojo/src/main/java/com/tom/pojo/TradeGoods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-pojo/src/main/java/com/tom/pojo/TradeGoodsNumberLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-pojo/src/main/java/com/tom/pojo/TradeMqConsumerLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-pojo/src/main/java/com/tom/pojo/TradeMqProducerTemp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-pojo/src/main/java/com/tom/pojo/TradeOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-pojo/src/main/java/com/tom/pojo/TradePay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-pojo/src/main/java/com/tom/pojo/TradeUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-pojo/src/main/java/com/tom/pojo/TradeUserMoneyLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-service/shop-coupon-service/src/main/java/com/tom/mapper/TradeCouponMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-service/shop-coupon-service/src/main/java/com/tom/service/impl/ICouponServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-service/shop-goods-service/src/main/java/com/tom/mapper/TradeGoodsMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-service/shop-goods-service/src/main/java/com/tom/mapper/TradeGoodsNumberLogMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-service/shop-goods-service/src/main/java/com/tom/mapper/TradeMqConsumerLogMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-service/shop-goods-service/src/main/java/com/tom/service/impl/IGoodsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-service/shop-order-service/src/main/java/com/tom/mapper/TradeOrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-service/shop-order-service/src/main/java/com/tom/service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-service/shop-pay-service/src/main/java/com/tom/mapper/TradeMqProducerTempMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-service/shop-pay-service/src/main/java/com/tom/mapper/TradePayMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-service/shop-user-service/src/main/java/com/tom/mapper/TradeUserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-service/shop-user-service/src/main/java/com/tom/mapper/TradeUserMoneyLogMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-service/shop-user-service/src/main/java/com/tom/service/IUserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-common/src/main/java/com/tom/utils/IDWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-common/src/main/java/com/tom/utils/IDWorker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-pojo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-pojo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-service/shop-coupon-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service/shop-coupon-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-service/shop-goods-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service/shop-goods-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-service/shop-goods-service/shop-goods-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service/shop-goods-service/shop-goods-service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-service/shop-order-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service/shop-order-service/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="D:/Code/Maven/apache-maven-3.6.1" />
-        <option name="userSettingsFile" value="D:\Code\Maven\apache-maven-3.6.1\conf\settings.xml" />
+        <option name="mavenHome" value="D:/maven/apache-maven-3.6.1" />
       </MavenGeneralSettings>
     </option>
   </component>
   <component name="ProjectId" id="1eMasSf7KUgquRrYOfCWKGki7DU" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ChangGou/code-template-master" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ChangGou/changgou-parent" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.ignored.files" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.tom.service" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.tom.mapper" />
       <recent name="com.tom.utils" />
       <recent name="com.tom.constant" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\lincya\project\aa\shop-parent\shop-pojo\src\main\java\com\tom\entity" />
-      <recent name="E:\lincya\project\aa\shop-parent\shop-common\src\main\java\com\tom\exception" />
+      <recent name="E:\study\project\MQShop\shop-parent\shop-service\shop-user-service\src\main\java\com\tom\mapper" />
+      <recent name="E:\study\project\MQShop\shop-parent\shop-service\shop-pay-service\src\main\java\com\tom\mapper" />
+      <recent name="E:\study\project\MQShop\shop-parent\shop-service\shop-user-service" />
+      <recent name="E:\study\project\MQShop\shop-parent\shop-service\shop-pay-service" />
+      <recent name="E:\study\project\MQShop\shop-parent\shop-service\shop-order-service" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
+  <component name="RunManager">
+    <configuration name="IDWorker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tom.utils.IDWorker" />
+      <module name="shop-common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tom.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
       <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
+        <item itemvalue="Application.IDWorker" />
       </list>
-    </option>
+    </recent_temporary>
   </component>
   <component name="SshConsoleOptionsProvider">
     <option name="myEncoding" value="UTF-8" />
@@ -59,10 +138,66 @@
       <option name="presentableId" value="Default" />
       <updated>1594134122009</updated>
       <workItem from="1594134134983" duration="1238000" />
+      <workItem from="1594172227642" duration="206000" />
+      <workItem from="1594172439352" duration="16084000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2281" y="71" key="#Project_Structure" timestamp="1594174529245">
+      <screen x="1920" y="0" width="1536" height="824" />
+    </state>
+    <state x="2281" y="71" key="#Project_Structure/0.0.1536.824/1920.0.1536.824@1920.0.1536.824" timestamp="1594174529245" />
+    <state x="2281" y="71" key="#Scopes" timestamp="1594173556141">
+      <screen x="1920" y="0" width="1536" height="824" />
+    </state>
+    <state x="2281" y="71" key="#Scopes/0.0.1536.824/1920.0.1536.824@1920.0.1536.824" timestamp="1594173556141" />
+    <state x="2494" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1594179169756">
+      <screen x="1920" y="0" width="1536" height="824" />
+    </state>
+    <state x="2494" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/1920.0.1536.824@1920.0.1536.824" timestamp="1594179169756" />
+    <state x="2469" y="168" key="FileChooserDialogImpl" timestamp="1594191574943">
+      <screen x="1920" y="0" width="1536" height="824" />
+    </state>
+    <state x="2469" y="168" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1536.824@1920.0.1536.824" timestamp="1594191574943" />
+    <state width="1493" height="173" key="GridCell.Tab.0.bottom" timestamp="1594194574161">
+      <screen x="1920" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="173" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1536.824@1920.0.1536.824" timestamp="1594194574161" />
+    <state width="1493" height="173" key="GridCell.Tab.0.center" timestamp="1594194574160">
+      <screen x="1920" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="173" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1536.824@1920.0.1536.824" timestamp="1594194574160" />
+    <state width="1493" height="173" key="GridCell.Tab.0.left" timestamp="1594194574160">
+      <screen x="1920" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="173" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1536.824@1920.0.1536.824" timestamp="1594194574160" />
+    <state width="1493" height="173" key="GridCell.Tab.0.right" timestamp="1594194574160">
+      <screen x="1920" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="173" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1536.824@1920.0.1536.824" timestamp="1594194574160" />
+    <state x="2190" y="0" key="SettingsEditor" timestamp="1594173947053">
+      <screen x="1920" y="0" width="1536" height="824" />
+    </state>
+    <state x="2190" y="0" key="SettingsEditor/0.0.1536.824/1920.0.1536.824@1920.0.1536.824" timestamp="1594173947053" />
+    <state x="2098" y="0" key="new project wizard" timestamp="1594175401851">
+      <screen x="1920" y="0" width="1536" height="824" />
+    </state>
+    <state x="2098" y="0" key="new project wizard/0.0.1536.824/1920.0.1536.824@1920.0.1536.824" timestamp="1594175401851" />
+    <state x="2431" y="40" key="refactoring.ChangeSignatureDialog" timestamp="1594191773657">
+      <screen x="1920" y="0" width="1536" height="824" />
+    </state>
+    <state x="2431" y="40" key="refactoring.ChangeSignatureDialog/0.0.1536.824/1920.0.1536.824@1920.0.1536.824" timestamp="1594191773657" />
+    <state x="2345" y="187" key="run.anything.popup" timestamp="1594192201179">
+      <screen x="1920" y="0" width="1536" height="824" />
+    </state>
+    <state x="2345" y="187" key="run.anything.popup/0.0.1536.824/1920.0.1536.824@1920.0.1536.824" timestamp="1594192201179" />
+    <state x="2351" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1594188447589">
+      <screen x="1920" y="0" width="1536" height="824" />
+    </state>
+    <state x="2351" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1920.0.1536.824@1920.0.1536.824" timestamp="1594188447589" />
   </component>
 </project>

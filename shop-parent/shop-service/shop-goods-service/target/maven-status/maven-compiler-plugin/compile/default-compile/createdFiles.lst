@@ -1,0 +1,3 @@
+com\tom\mapper\TradeGoodsMapper.class
+com\tom\mapper\TradeMqConsumerLogMapper.class
+com\tom\mapper\TradeGoodsNumberLogMapper.class

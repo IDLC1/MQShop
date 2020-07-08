@@ -3,14 +3,22 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shop-api/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shop-common/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop-pojo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shop-pojo/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop-service/shop-coupon-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shop-service/shop-coupon-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop-service/shop-goods-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shop-service/shop-goods-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop-service/shop-order-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shop-service/shop-order-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop-service/shop-pay-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shop-service/shop-pay-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop-service/shop-user-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shop-service/shop-user-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop-web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop-web/shop-order-web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop-web/shop-pay-web" charset="UTF-8" />
