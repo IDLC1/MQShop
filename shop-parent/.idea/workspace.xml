@@ -2,55 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e56c13e3-79d0-4d43-8213-541b47bc6dbc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/shop-pojo/src/main/java/com/tom/pojo/enetity/MQEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-service/shop-coupon-service/src/main/java/com/tom/coupon/CouponApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-service/shop-coupon-service/src/main/java/com/tom/coupon/mq/CancelMQListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-service/shop-coupon-service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-service/shop-coupon-service/src/main/test/com/tom/coupon/CouponTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-service/shop-goods-service/src/main/java/com/tom/goods/GoodsApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-service/shop-goods-service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-service/shop-order-service/src/main/java/com/tom/order/OrderApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-service/shop-order-service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-service/shop-order-service/src/main/test/com/tom/test/OrderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-service/shop-pay-service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-service/shop-user-service/src/main/java/com/tom/user/UserApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-service/shop-user-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-pojo/src/main/java/com/tom/pojo/pojo/TradeMqConsumerLogKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-service/shop-goods-service/src/main/java/com/tom/goods/mq/CancelMQListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-api/src/main/java/com/tom/service/ICouponService.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-api/src/main/java/com/tom/service/ICouponService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-api/src/main/java/com/tom/service/IGoodsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-api/src/main/java/com/tom/service/IGoodsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-api/src/main/java/com/tom/service/IOrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-api/src/main/java/com/tom/service/IOrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-api/src/main/java/com/tom/service/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-api/src/main/java/com/tom/service/IUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-common/src/main/java/com/tom/constant/ShopCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-common/src/main/java/com/tom/coupon/constant/ShopCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-common/src/main/java/com/tom/exception/CastException.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-common/src/main/java/com/tom/coupon/exception/CastException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-common/src/main/java/com/tom/exception/CustomerException.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-common/src/main/java/com/tom/coupon/exception/CustomerException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-common/src/main/java/com/tom/utils/IDWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-common/src/main/java/com/tom/coupon/utils/IDWorker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-pojo/src/main/java/com/tom/entity/MQEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-pojo/src/main/java/com/tom/entity/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-pojo/src/main/java/com/tom/pojo/enetity/Result.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-pojo/src/main/java/com/tom/pojo/TradeCoupon.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-pojo/src/main/java/com/tom/pojo/pojo/TradeCoupon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-pojo/src/main/java/com/tom/pojo/TradeGoods.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-pojo/src/main/java/com/tom/pojo/pojo/TradeGoods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-pojo/src/main/java/com/tom/pojo/TradeGoodsNumberLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-pojo/src/main/java/com/tom/pojo/pojo/TradeGoodsNumberLog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-pojo/src/main/java/com/tom/pojo/TradeMqConsumerLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-pojo/src/main/java/com/tom/pojo/pojo/TradeMqConsumerLog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-pojo/src/main/java/com/tom/pojo/TradeMqProducerTemp.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-pojo/src/main/java/com/tom/pojo/pojo/TradeMqProducerTemp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-pojo/src/main/java/com/tom/pojo/TradeOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-pojo/src/main/java/com/tom/pojo/pojo/TradeOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-pojo/src/main/java/com/tom/pojo/TradePay.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-pojo/src/main/java/com/tom/pojo/pojo/TradePay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-pojo/src/main/java/com/tom/pojo/TradeUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-pojo/src/main/java/com/tom/pojo/pojo/TradeUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-pojo/src/main/java/com/tom/pojo/TradeUserMoneyLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-pojo/src/main/java/com/tom/pojo/pojo/TradeUserMoneyLog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-service/shop-coupon-service/src/main/java/com/tom/mapper/TradeCouponMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service/shop-coupon-service/src/main/java/com/tom/coupon/mapper/TradeCouponMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-service/shop-coupon-service/src/main/java/com/tom/service/impl/ICouponServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service/shop-coupon-service/src/main/java/com/tom/coupon/service/impl/ICouponServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-service/shop-goods-service/src/main/java/com/tom/mapper/TradeGoodsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service/shop-goods-service/src/main/java/com/tom/goods/mapper/TradeGoodsMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-service/shop-goods-service/src/main/java/com/tom/mapper/TradeGoodsNumberLogMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service/shop-goods-service/src/main/java/com/tom/goods/mapper/TradeGoodsNumberLogMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-service/shop-goods-service/src/main/java/com/tom/mapper/TradeMqConsumerLogMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service/shop-goods-service/src/main/java/com/tom/goods/mapper/TradeMqConsumerLogMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-service/shop-goods-service/src/main/java/com/tom/service/impl/IGoodsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service/shop-goods-service/src/main/java/com/tom/goods/service/impl/IGoodsServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-service/shop-order-service/src/main/java/com/tom/mapper/TradeOrderMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service/shop-order-service/src/main/java/com/tom/order/mapper/TradeOrderMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-service/shop-order-service/src/main/java/com/tom/service/impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service/shop-order-service/src/main/java/com/tom/order/service/impl/OrderServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-service/shop-pay-service/src/main/java/com/tom/mapper/TradeMqProducerTempMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-service/shop-pay-service/src/main/java/com/tom/mapper/TradePayMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-service/shop-user-service/src/main/java/com/tom/mapper/TradeUserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service/shop-user-service/src/main/java/com/tom/user/mapper/TradeUserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-service/shop-user-service/src/main/java/com/tom/mapper/TradeUserMoneyLogMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service/shop-user-service/src/main/java/com/tom/user/mapper/TradeUserMoneyLogMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-service/shop-user-service/src/main/java/com/tom/service/IUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service/shop-user-service/src/main/java/com/tom/user/service/impl/IUserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-api/target/classes/META-INF/shop-api.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-common/target/classes/META-INF/shop-common.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-pojo/target/classes/META-INF/shop-pojo.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-service/shop-coupon-service/src/main/java/com/tom/coupon/mq/CancelMQListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service/shop-coupon-service/src/main/java/com/tom/coupon/mq/CancelMQListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-service/shop-coupon-service/target/classes/META-INF/shop-coupon-service.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-service/shop-coupon-service/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service/shop-coupon-service/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-service/shop-goods-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service/shop-goods-service/src/main/resources/application.properties" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,6 +36,7 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="mavenHome" value="D:/maven/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="D:\Code\Maven\apache-maven-3.6.1\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -92,13 +57,23 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ChangGou/changgou-parent" />
+    <property name="last_opened_file_path" value="G:/学习资料/Rocketmq/代码/shop-project/shop" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.ignored.files" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.tom.service" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.tom.pojo.pojo" />
+      <recent name="com.tom.goods.mq" />
+      <recent name="com.tom" />
+      <recent name="com.tom.mapper" />
+      <recent name="com.tom.utils" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\study\project\MQShop\shop-parent\shop-service\shop-pay-service\src\main\resources" />
       <recent name="E:\study\project\MQShop\shop-parent\shop-service\shop-order-service\src\main\resources" />
@@ -106,31 +81,21 @@
       <recent name="E:\study\project\MQShop\shop-parent\shop-service\shop-user-service\src\main\java\com\tom\mapper" />
       <recent name="E:\study\project\MQShop\shop-parent\shop-service\shop-pay-service\src\main\java\com\tom\mapper" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.tom" />
-      <recent name="com.tom.mapper" />
-      <recent name="com.tom.utils" />
-      <recent name="com.tom.constant" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.tom.service" />
-    </key>
   </component>
-  <component name="RunManager" selected="JUnit.OrderTest">
-    <configuration name="IDWorker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tom.coupon.utils.IDWorker" />
-      <module name="shop-common" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tom.coupon.utils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CouponTest.createBatchCoupon" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.UserApplication">
+    <configuration name="CouponApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="shop-coupon-service" />
       <extension name="coverage">
         <pattern>
@@ -138,25 +103,7 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.tom.coupon" />
-      <option name="MAIN_CLASS_NAME" value="com.tom.coupon.CouponTest" />
-      <option name="METHOD_NAME" value="createBatchCoupon" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OrderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="shop-order-service" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tom.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.tom.test" />
-      <option name="MAIN_CLASS_NAME" value="com.tom.test.OrderTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tom.coupon.CouponApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -189,11 +136,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.OrderTest" />
         <item itemvalue="Spring Boot.UserApplication" />
         <item itemvalue="Spring Boot.GoodsApplication" />
-        <item itemvalue="JUnit.CouponTest.createBatchCoupon" />
-        <item itemvalue="Application.IDWorker" />
+        <item itemvalue="Spring Boot.CouponApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -214,11 +159,27 @@
       <workItem from="1594172227642" duration="206000" />
       <workItem from="1594172439352" duration="16084000" />
       <workItem from="1594261517236" duration="20078000" />
+      <workItem from="1594305886256" duration="305000" />
+      <workItem from="1594306239709" duration="209000" />
+      <workItem from="1594306475268" duration="2308000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="2281" y="71" key="#Project_Structure" timestamp="1594277644126">
