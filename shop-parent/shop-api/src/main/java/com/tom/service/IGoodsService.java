@@ -1,9 +1,8 @@
 package com.tom.service;
 
-import com.tom.entity.Result;
-import com.tom.pojo.TradeGoods;
-import com.tom.pojo.TradeGoodsNumberLog;
-import com.tom.pojo.TradeOrder;
+import com.tom.pojo.enetity.Result;
+import com.tom.pojo.pojo.TradeGoods;
+import com.tom.pojo.pojo.TradeGoodsNumberLog;
 
 public interface IGoodsService {
 

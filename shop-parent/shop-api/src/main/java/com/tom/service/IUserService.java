@@ -1,8 +1,8 @@
 package com.tom.service;
 
-import com.tom.entity.Result;
-import com.tom.pojo.TradeUser;
-import com.tom.pojo.TradeUserMoneyLog;
+import com.tom.pojo.enetity.Result;
+import com.tom.pojo.pojo.TradeUser;
+import com.tom.pojo.pojo.TradeUserMoneyLog;
 
 public interface IUserService {
 

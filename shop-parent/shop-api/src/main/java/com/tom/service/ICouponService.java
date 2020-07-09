@@ -1,7 +1,7 @@
 package com.tom.service;
 
-import com.tom.entity.Result;
-import com.tom.pojo.TradeCoupon;
+import com.tom.pojo.enetity.Result;
+import com.tom.pojo.pojo.TradeCoupon;
 
 public interface ICouponService {
 

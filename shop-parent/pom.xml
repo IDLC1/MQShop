@@ -95,5 +95,12 @@
             <artifactId>rocketmq-spring-boot-starter</artifactId>
             <version>${rocketmq-spring-boot-starter-version}</version>
         </dependency>
+
+        <!--    test    -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
 </project>
