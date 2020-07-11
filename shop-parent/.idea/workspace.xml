@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e56c13e3-79d0-4d43-8213-541b47bc6dbc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/shop-pojo/src/main/java/com/tom/pojo/pojo/TradeMqConsumerLogKey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-service/shop-goods-service/src/main/java/com/tom/goods/mq/CancelMQListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-api/target/classes/META-INF/shop-api.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-common/target/classes/META-INF/shop-common.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-pojo/target/classes/META-INF/shop-pojo.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-service/shop-coupon-service/src/main/java/com/tom/coupon/mq/CancelMQListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service/shop-coupon-service/src/main/java/com/tom/coupon/mq/CancelMQListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-service/shop-coupon-service/target/classes/META-INF/shop-coupon-service.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-service/shop-coupon-service/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service/shop-coupon-service/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-service/shop-goods-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service/shop-goods-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-service/shop-goods-service/src/main/java/com/tom/goods/mapper/TradeGoodsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service/shop-goods-service/src/main/java/com/tom/goods/mapper/TradeGoodsMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-service/shop-goods-service/src/main/java/com/tom/goods/mapper/TradeGoodsNumberLogMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service/shop-goods-service/src/main/java/com/tom/goods/mapper/TradeGoodsNumberLogMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-service/shop-goods-service/src/main/java/com/tom/goods/mapper/TradeMqConsumerLogMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service/shop-goods-service/src/main/java/com/tom/goods/mapper/TradeMqConsumerLogMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-service/shop-goods-service/src/main/java/com/tom/goods/mq/CancelMQListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service/shop-goods-service/src/main/java/com/tom/goods/mq/CancelMQListener.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,6 +52,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="G:/学习资料/Rocketmq/代码/shop-project/shop" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -161,7 +156,8 @@
       <workItem from="1594261517236" duration="20078000" />
       <workItem from="1594305886256" duration="305000" />
       <workItem from="1594306239709" duration="209000" />
-      <workItem from="1594306475268" duration="2308000" />
+      <workItem from="1594306475268" duration="2445000" />
+      <workItem from="1594387758870" duration="3935000" />
     </task>
     <servers />
   </component>
