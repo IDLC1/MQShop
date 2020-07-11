@@ -50,12 +50,19 @@ public class CancelMQListener implements RocketMQListener<MessageExt> {
 
     @Override
     public void onMessage(MessageExt messageExt) {
+        String msgId = null;
+        String tags = null;
+        String keys = null;
+        String body = null;
         try {
             // 解析消息内容
-            String msgId = messageExt.getMsgId();
-            String tags = messageExt.getTags();
-            String keys = messageExt.getKeys();
-            String body = new String(messageExt.getBody(), "UTF-8");
+            msgId = messageExt.getMsgId();
+            tags = messageExt.getTags();
+            keys = messageExt.getKeys();
+            body = new String(messageExt.getBody(), "UTF-8");
+
+            log.info("接收消息成功");
+
             // 查询消息消费记录
             TradeMqConsumerLogKey primaryKey = new TradeMqConsumerLogKey();
             primaryKey.setGroupName(groupName);
@@ -94,13 +101,13 @@ public class CancelMQListener implements RocketMQListener<MessageExt> {
                     int res = tradeMqConsumerLogMapper.updateByExampleSelective(mqConsumerLog, example);
                     if (res <= 0) {
                         // 未修改成功，有其他线程在并发修改
-                        // TODO: 若三次处理都失败了呢？
                         log.info("并发修改，稍后处理");
                     }
                 }
             } else {
                 // 若消息记录里没有这条消息记录，则创建消费记录信息
                 mqConsumerLog = new TradeMqConsumerLog();
+                mqConsumerLog.setGroupName(groupName);
                 mqConsumerLog.setMsgTag(tags);
                 mqConsumerLog.setMsgKey(keys);
                 mqConsumerLog.setConsumerStatus(ShopCode.SHOP_MQ_MESSAGE_STATUS_PROCESSING.getCode());
@@ -120,13 +127,13 @@ public class CancelMQListener implements RocketMQListener<MessageExt> {
             // 更新商品
             goodsMapper.updateByPrimaryKey(goods);
 
-            // 记录库存操作日志
-            TradeGoodsNumberLog goodsNumberLog = new TradeGoodsNumberLog();
-            goodsNumberLog.setOrderId(entity.getOrderId());
-            goodsNumberLog.setGoodsId(goodsId);
-            goodsNumberLog.setGoodsNumber(entity.getGoodsNum());
-            goodsNumberLog.setLogTime(new Date());
-            goodsNumberLogMapper.insert(goodsNumberLog);
+//            // 记录库存操作日志
+//            TradeGoodsNumberLog goodsNumberLog = new TradeGoodsNumberLog();
+//            goodsNumberLog.setOrderId(entity.getOrderId());
+//            goodsNumberLog.setGoodsId(goodsId);
+//            goodsNumberLog.setGoodsNumber(entity.getGoodsNum());
+//            goodsNumberLog.setLogTime(new Date());
+//            goodsNumberLogMapper.insert(goodsNumberLog);
 
             // 将消息的处理状态改为成功
             mqConsumerLog.setConsumerStatus(ShopCode.SHOP_MQ_MESSAGE_STATUS_SUCCESS.getCode());
@@ -134,9 +141,29 @@ public class CancelMQListener implements RocketMQListener<MessageExt> {
             tradeMqConsumerLogMapper.updateByPrimaryKey(mqConsumerLog);
             log.info("回退库存成功");
         } catch (Exception e) {
-            CastException.cast(ShopCode.SHOP_FAIL);
             e.printStackTrace();
-\        }
+            // 若消息处理失败了，则重新创建消费日志
+            TradeMqConsumerLogKey primaryKey = new TradeMqConsumerLogKey();
+            primaryKey.setGroupName(groupName);
+            primaryKey.setMsgKey(keys);
+            primaryKey.setMsgTag(tags);
+            TradeMqConsumerLog mqConsumerLog = tradeMqConsumerLogMapper.selectByPrimaryKey(primaryKey);
 
+            if (mqConsumerLog == null) {
+                // 数据库中未有记录，即第一次失败
+                mqConsumerLog = new TradeMqConsumerLog();
+                mqConsumerLog.setGroupName(groupName);
+                mqConsumerLog.setMsgTag(tags);
+                mqConsumerLog.setMsgKey(keys);
+                mqConsumerLog.setConsumerStatus(ShopCode.SHOP_MQ_MESSAGE_STATUS_PROCESSING.getCode());
+                mqConsumerLog.setMsgBody(body);
+                mqConsumerLog.setConsumerTimes(1);
+                tradeMqConsumerLogMapper.insert(mqConsumerLog);
+            } else {
+                // 若有记录，但处理失败了，则修改处理次数
+                mqConsumerLog.setConsumerTimes(mqConsumerLog.getConsumerTimes()+1);
+                tradeMqConsumerLogMapper.updateByPrimaryKeySelective(mqConsumerLog);
+            }
+        }
     }
 }

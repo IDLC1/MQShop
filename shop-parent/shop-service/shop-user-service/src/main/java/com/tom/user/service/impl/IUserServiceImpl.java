@@ -10,6 +10,7 @@ import com.tom.pojo.pojo.TradeUser;
 import com.tom.pojo.pojo.TradeUserMoneyLog;
 import org.apache.dubbo.config.annotation.DubboService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
 import tk.mybatis.mapper.entity.Example;
 
 import java.math.BigDecimal;
@@ -22,6 +23,7 @@ import java.util.Date;
  * @Create: 2020-07-08 10:54
  **/
 @DubboService
+@Repository
 public class IUserServiceImpl implements IUserService {
     @Autowired
     private TradeUserMapper tradeUserMapper;
@@ -80,14 +82,15 @@ public class IUserServiceImpl implements IUserService {
             Example.Criteria criteria1 = example1.createCriteria();
             criteria1.andEqualTo("orderId", userMoneyLog.getOrderId());
             criteria1.andEqualTo("userId", userMoneyLog.getUserId());
-            criteria1.andEqualTo("moneyLogType", userMoneyLog.getMoneyLogType());
-            int res2 = tradeUserMoneyLogMapper.selectCountByExample(example);
+            criteria1.andEqualTo("moneyLogType", ShopCode.SHOP_USER_MONEY_REFUND.getCode());
+            int res2 = tradeUserMoneyLogMapper.selectCountByExample(example1);
             // 若存在记录，则已经发生退款
             if (res2 > 0) {
                 CastException.cast(ShopCode.SHOP_USER_MONEY_REFUND_ALREADY);
             }
             // 若不存在记录，则开始退款 用户的当前余额+本次订单的使用金额
             user.setUserMoney(new BigDecimal(user.getUserMoney()).add(userMoneyLog.getUseMoney()).longValue());
+            tradeUserMapper.updateByPrimaryKey(user);
         }
 
         // 记录订单余额使用日志

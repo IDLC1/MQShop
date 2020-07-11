@@ -26,7 +26,7 @@ public class OrderTest {
 
     @Test
     public void confirmOrder() {
-        Long coupouId = 478623985073139716L;
+        Long coupouId = 478633591312617472L;
         Long goodsId = 345959443973935104L;
         Long userId = 345963634385633280L;
 

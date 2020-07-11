@@ -3,6 +3,7 @@ package com.tom.service;
 import com.tom.pojo.enetity.Result;
 import com.tom.pojo.pojo.TradeUser;
 import com.tom.pojo.pojo.TradeUserMoneyLog;
+import org.springframework.stereotype.Repository;
 
 public interface IUserService {
 

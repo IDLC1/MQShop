@@ -2,13 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e56c13e3-79d0-4d43-8213-541b47bc6dbc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/shop-service/shop-order-service/src/main/java/com/tom/order/mq/CancelMQListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-service/shop-user-service/src/main/java/com/tom/user/mq/CancelMQListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-service/shop-user-service/src/main/test/com/tom/test/OrderLogTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-service/shop-goods-service/src/main/java/com/tom/goods/mapper/TradeGoodsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service/shop-goods-service/src/main/java/com/tom/goods/mapper/TradeGoodsMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-service/shop-goods-service/src/main/java/com/tom/goods/mapper/TradeGoodsNumberLogMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service/shop-goods-service/src/main/java/com/tom/goods/mapper/TradeGoodsNumberLogMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-service/shop-goods-service/src/main/java/com/tom/goods/mapper/TradeMqConsumerLogMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service/shop-goods-service/src/main/java/com/tom/goods/mapper/TradeMqConsumerLogMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-api/src/main/java/com/tom/service/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-api/src/main/java/com/tom/service/IUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-service/shop-coupon-service/src/main/java/com/tom/coupon/mq/CancelMQListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service/shop-coupon-service/src/main/java/com/tom/coupon/mq/CancelMQListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shop-service/shop-goods-service/src/main/java/com/tom/goods/mq/CancelMQListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service/shop-goods-service/src/main/java/com/tom/goods/mq/CancelMQListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-service/shop-goods-service/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service/shop-goods-service/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-service/shop-order-service/src/main/test/com/tom/test/OrderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service/shop-order-service/src/main/test/com/tom/test/OrderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-service/shop-user-service/src/main/java/com/tom/user/service/impl/IUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service/shop-user-service/src/main/java/com/tom/user/service/impl/IUserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-service/shop-user-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service/shop-user-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-service/shop-user-service/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service/shop-user-service/target/classes/application.properties" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,7 +57,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="G:/学习资料/Rocketmq/代码/shop-project/shop" />
+    <property name="last_opened_file_path" value="F:/学习资料/rocketmq/代码/shop-project/shop" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -59,16 +65,6 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.tom.service" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.tom.pojo.pojo" />
-      <recent name="com.tom.goods.mq" />
-      <recent name="com.tom" />
-      <recent name="com.tom.mapper" />
-      <recent name="com.tom.utils" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\study\project\MQShop\shop-parent\shop-service\shop-pay-service\src\main\resources" />
       <recent name="E:\study\project\MQShop\shop-parent\shop-service\shop-order-service\src\main\resources" />
@@ -76,20 +72,41 @@
       <recent name="E:\study\project\MQShop\shop-parent\shop-service\shop-user-service\src\main\java\com\tom\mapper" />
       <recent name="E:\study\project\MQShop\shop-parent\shop-service\shop-pay-service\src\main\java\com\tom\mapper" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.tom.order.mq" />
+      <recent name="com.tom.user.mq" />
+      <recent name="com.tom.pojo.pojo" />
+      <recent name="com.tom.goods.mq" />
+      <recent name="com.tom" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.tom.service" />
+    </key>
   </component>
   <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.UserApplication">
+  <component name="RunManager" selected="JUnit.OrderTest.confirmOrder">
+    <configuration name="OrderTest.confirmOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shop-order-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tom.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tom.test" />
+      <option name="MAIN_CLASS_NAME" value="com.tom.test.OrderTest" />
+      <option name="METHOD_NAME" value="confirmOrder" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CouponApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="shop-coupon-service" />
       <extension name="coverage">
@@ -129,13 +146,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.OrderTest.confirmOrder" />
+      <item itemvalue="Spring Boot.CouponApplication" />
+      <item itemvalue="Spring Boot.GoodsApplication" />
+      <item itemvalue="Spring Boot.UserApplication" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.UserApplication" />
+        <item itemvalue="JUnit.OrderTest.confirmOrder" />
         <item itemvalue="Spring Boot.GoodsApplication" />
+        <item itemvalue="Spring Boot.UserApplication" />
         <item itemvalue="Spring Boot.CouponApplication" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.17008197" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SshConsoleOptionsProvider">
     <option name="myEncoding" value="UTF-8" />
@@ -158,6 +205,7 @@
       <workItem from="1594306239709" duration="209000" />
       <workItem from="1594306475268" duration="2445000" />
       <workItem from="1594387758870" duration="3935000" />
+      <workItem from="1594450797961" duration="8931000" />
     </task>
     <servers />
   </component>
@@ -198,50 +246,74 @@
       <screen x="1920" y="0" width="1536" height="824" />
     </state>
     <state x="2209" y="338" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824/1920.0.1536.824@1920.0.1536.824" timestamp="1594273453295" />
-    <state x="2469" y="168" key="FileChooserDialogImpl" timestamp="1594276909417">
+    <state x="2032" y="134" key="#xdebugger.evaluate" timestamp="1594460623115">
       <screen x="1920" y="0" width="1536" height="824" />
     </state>
-    <state x="2469" y="168" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1536.824@1920.0.1536.824" timestamp="1594276909417" />
-    <state width="1493" height="291" key="GridCell.Tab.0.bottom" timestamp="1594289115648">
+    <state x="2032" y="134" key="#xdebugger.evaluate/0.0.1536.824/1920.0.1536.824@1920.0.1536.824" timestamp="1594460623115" />
+    <state width="490" height="462" key="DebuggerActiveHint" timestamp="1594460489484">
       <screen x="1920" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="291" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1536.824@1920.0.1536.824" timestamp="1594289115648" />
-    <state width="1493" height="291" key="GridCell.Tab.0.center" timestamp="1594289115648">
+    <state width="490" height="462" key="DebuggerActiveHint/0.0.1536.824/1920.0.1536.824@1920.0.1536.824" timestamp="1594460489484" />
+    <state x="2469" y="168" key="FileChooserDialogImpl" timestamp="1594460638502">
       <screen x="1920" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="291" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1536.824@1920.0.1536.824" timestamp="1594289115648" />
-    <state width="1493" height="291" key="GridCell.Tab.0.left" timestamp="1594289115648">
+    <state x="2469" y="168" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1536.824@1920.0.1536.824" timestamp="1594460638502" />
+    <state width="1214" height="225" key="GridCell.Tab.0.bottom" timestamp="1594461619679">
       <screen x="1920" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="291" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1536.824@1920.0.1536.824" timestamp="1594289115648" />
-    <state width="1493" height="291" key="GridCell.Tab.0.right" timestamp="1594289115648">
+    <state width="1214" height="225" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1536.824@1920.0.1536.824" timestamp="1594461619679" />
+    <state width="1214" height="225" key="GridCell.Tab.0.center" timestamp="1594461619679">
       <screen x="1920" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="291" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1536.824@1920.0.1536.824" timestamp="1594289115648" />
-    <state width="1493" height="291" key="GridCell.Tab.1.bottom" timestamp="1594289115648">
+    <state width="1214" height="225" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1536.824@1920.0.1536.824" timestamp="1594461619679" />
+    <state width="1214" height="225" key="GridCell.Tab.0.left" timestamp="1594461619679">
       <screen x="1920" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="291" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1536.824@1920.0.1536.824" timestamp="1594289115648" />
-    <state width="1493" height="291" key="GridCell.Tab.1.center" timestamp="1594289115648">
+    <state width="1214" height="225" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1536.824@1920.0.1536.824" timestamp="1594461619679" />
+    <state width="1214" height="225" key="GridCell.Tab.0.right" timestamp="1594461619679">
       <screen x="1920" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="291" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1536.824@1920.0.1536.824" timestamp="1594289115648" />
-    <state width="1493" height="291" key="GridCell.Tab.1.left" timestamp="1594289115648">
+    <state width="1214" height="225" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1536.824@1920.0.1536.824" timestamp="1594461619679" />
+    <state width="1214" height="225" key="GridCell.Tab.1.bottom" timestamp="1594461619680">
       <screen x="1920" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="291" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1536.824@1920.0.1536.824" timestamp="1594289115648" />
-    <state width="1493" height="291" key="GridCell.Tab.1.right" timestamp="1594289115648">
+    <state width="1214" height="225" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1536.824@1920.0.1536.824" timestamp="1594461619680" />
+    <state width="1214" height="225" key="GridCell.Tab.1.center" timestamp="1594461619679">
       <screen x="1920" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="291" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1536.824@1920.0.1536.824" timestamp="1594289115648" />
+    <state width="1214" height="225" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1536.824@1920.0.1536.824" timestamp="1594461619679" />
+    <state width="1214" height="225" key="GridCell.Tab.1.left" timestamp="1594461619679">
+      <screen x="1920" y="0" width="1536" height="824" />
+    </state>
+    <state width="1214" height="225" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1536.824@1920.0.1536.824" timestamp="1594461619679" />
+    <state width="1214" height="225" key="GridCell.Tab.1.right" timestamp="1594461619680">
+      <screen x="1920" y="0" width="1536" height="824" />
+    </state>
+    <state width="1214" height="225" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1536.824@1920.0.1536.824" timestamp="1594461619680" />
+    <state width="1214" height="225" key="GridCell.Tab.2.bottom" timestamp="1594460961904">
+      <screen x="1920" y="0" width="1536" height="824" />
+    </state>
+    <state width="1214" height="225" key="GridCell.Tab.2.bottom/0.0.1536.824/1920.0.1536.824@1920.0.1536.824" timestamp="1594460961904" />
+    <state width="1214" height="225" key="GridCell.Tab.2.center" timestamp="1594460961904">
+      <screen x="1920" y="0" width="1536" height="824" />
+    </state>
+    <state width="1214" height="225" key="GridCell.Tab.2.center/0.0.1536.824/1920.0.1536.824@1920.0.1536.824" timestamp="1594460961904" />
+    <state width="1214" height="225" key="GridCell.Tab.2.left" timestamp="1594460961904">
+      <screen x="1920" y="0" width="1536" height="824" />
+    </state>
+    <state width="1214" height="225" key="GridCell.Tab.2.left/0.0.1536.824/1920.0.1536.824@1920.0.1536.824" timestamp="1594460961904" />
+    <state width="1214" height="225" key="GridCell.Tab.2.right" timestamp="1594460961904">
+      <screen x="1920" y="0" width="1536" height="824" />
+    </state>
+    <state width="1214" height="225" key="GridCell.Tab.2.right/0.0.1536.824/1920.0.1536.824@1920.0.1536.824" timestamp="1594460961904" />
     <state x="2190" y="0" key="SettingsEditor" timestamp="1594173947053">
       <screen x="1920" y="0" width="1536" height="824" />
     </state>
     <state x="2190" y="0" key="SettingsEditor/0.0.1536.824/1920.0.1536.824@1920.0.1536.824" timestamp="1594173947053" />
-    <state x="2367" y="145" width="642" height="534" key="find.popup" timestamp="1594280935890">
+    <state x="2367" y="145" width="683" height="534" key="find.popup" timestamp="1594460282277">
       <screen x="1920" y="0" width="1536" height="824" />
     </state>
-    <state x="2367" y="145" width="642" height="534" key="find.popup/0.0.1536.824/1920.0.1536.824@1920.0.1536.824" timestamp="1594280935890" />
+    <state x="2367" y="145" width="683" height="534" key="find.popup/0.0.1536.824/1920.0.1536.824@1920.0.1536.824" timestamp="1594460282277" />
     <state x="2098" y="0" key="new project wizard" timestamp="1594175401851">
       <screen x="1920" y="0" width="1536" height="824" />
     </state>
@@ -254,9 +326,20 @@
       <screen x="1920" y="0" width="1536" height="824" />
     </state>
     <state x="2345" y="187" key="run.anything.popup/0.0.1536.824/1920.0.1536.824@1920.0.1536.824" timestamp="1594281222859" />
-    <state x="2351" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1594282133202">
+    <state x="2351" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1594459970789">
       <screen x="1920" y="0" width="1536" height="824" />
     </state>
-    <state x="2351" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1920.0.1536.824@1920.0.1536.824" timestamp="1594282133202" />
+    <state x="2351" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1920.0.1536.824@1920.0.1536.824" timestamp="1594459970789" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/shop-service/shop-user-service/src/main/java/com/tom/user/service/impl/IUserServiceImpl.java</url>
+          <line>80</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

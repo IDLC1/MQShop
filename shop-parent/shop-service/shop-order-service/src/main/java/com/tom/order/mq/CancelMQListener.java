@@ -1,10 +1,10 @@
-package com.tom.coupon.mq;
+package com.tom.order.mq;
 
 import com.alibaba.fastjson.JSON;
 import com.tom.coupon.constant.ShopCode;
-import com.tom.coupon.mapper.TradeCouponMapper;
+import com.tom.order.mapper.TradeOrderMapper;
 import com.tom.pojo.enetity.MQEntity;
-import com.tom.pojo.pojo.TradeCoupon;
+import com.tom.pojo.pojo.TradeOrder;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.rocketmq.common.message.MessageExt;
 import org.apache.rocketmq.spring.annotation.MessageModel;
@@ -27,7 +27,7 @@ import java.io.UnsupportedEncodingException;
 public class CancelMQListener implements RocketMQListener<MessageExt> {
 
     @Autowired
-    private TradeCouponMapper couponMapper;
+    private TradeOrderMapper orderMapper;
 
     @Override
     public void onMessage(MessageExt messageExt) {
@@ -37,20 +37,15 @@ public class CancelMQListener implements RocketMQListener<MessageExt> {
             MQEntity entity = JSON.parseObject(body, MQEntity.class);
             log.info("接收到消息");
 
-            if (entity.getCouponId() != null) {
-                // 查询优惠券信息
-                TradeCoupon coupon = couponMapper.selectByPrimaryKey(entity);
-                // 恢复优惠券数据
-                coupon.setUsedTime(null);
-                coupon.setIsUsed(ShopCode.SHOP_COUPON_UNUSED.getCode());
-                coupon.setOrderId(null);
-                couponMapper.updateByPrimaryKey(coupon);
-            }
-
-            log.info("回退优惠券成功");
+            // 查询预订单
+            TradeOrder order = orderMapper.selectByPrimaryKey(entity.getOrderId());
+            // 更新订单状态
+            order.setOrderStatus(ShopCode.SHOP_ORDER_CANCEL.getCode());
+            orderMapper.updateByPrimaryKey(order);
+            log.info("取消预订单成功");
         } catch (UnsupportedEncodingException e) {
             e.printStackTrace();
-            log.info("回退优惠券失败");
+            log.info("取消预订单失败");
         }
     }
 }
