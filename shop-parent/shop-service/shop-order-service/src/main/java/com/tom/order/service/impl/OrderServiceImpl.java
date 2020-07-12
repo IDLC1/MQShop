@@ -2,26 +2,23 @@ package com.tom.order.service.impl;
 
 import com.alibaba.fastjson.JSON;
 import com.tom.coupon.constant.ShopCode;
-import com.tom.pojo.enetity.MQEntity;
-import com.tom.pojo.enetity.Result;
 import com.tom.coupon.exception.CastException;
-import com.tom.pojo.pojo.*;
-import com.tom.service.IUserService;
 import com.tom.coupon.utils.IDWorker;
 import com.tom.order.mapper.TradeOrderMapper;
+import com.tom.pojo.enetity.MQEntity;
+import com.tom.pojo.enetity.Result;
+import com.tom.pojo.pojo.*;
 import com.tom.service.ICouponService;
 import com.tom.service.IGoodsService;
 import com.tom.service.IOrderService;
+import com.tom.service.IUserService;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.dubbo.config.annotation.DubboReference;
-import org.apache.rocketmq.client.exception.MQBrokerException;
-import org.apache.rocketmq.client.exception.MQClientException;
+import org.apache.dubbo.config.annotation.DubboService;
 import org.apache.rocketmq.common.message.Message;
-import org.apache.rocketmq.remoting.exception.RemotingException;
 import org.apache.rocketmq.spring.core.RocketMQTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.stereotype.Service;
 
 import java.math.BigDecimal;
 import java.util.Date;
@@ -33,7 +30,7 @@ import java.util.Date;
  * @Create: 2020-07-08 10:31
  **/
 @Slf4j
-@Service
+@DubboService
 public class OrderServiceImpl implements IOrderService {
 
     @DubboReference
@@ -80,8 +77,8 @@ public class OrderServiceImpl implements IOrderService {
             // 扣减余额
             reduceMoneyPaid(order);
 
-            // 模拟异常
-            CastException.cast(ShopCode.SHOP_FAIL);
+            // TODO: 模拟异常
+//            CastException.cast(ShopCode.SHOP_FAIL);
 
             // 确认订单
             updateOrderStatus(order);
@@ -172,7 +169,7 @@ public class OrderServiceImpl implements IOrderService {
 
             // 更新优惠券状态
             Result result = couponService.updateCouponStatus(coupon);
-            if (ShopCode.SHOP_COUPON_USE_FAIL.equals(result.getSuccess())) {
+            if (ShopCode.SHOP_COUPON_USE_FAIL.getSuccess().equals(result.getSuccess())) {
                 CastException.cast(ShopCode.SHOP_COUPON_USE_FAIL);
             }
             log.info("订单：【" + order.getOrderId() + "】使用成功");

@@ -2,19 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e56c13e3-79d0-4d43-8213-541b47bc6dbc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/shop-service/shop-order-service/src/main/java/com/tom/order/mq/CancelMQListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-service/shop-user-service/src/main/java/com/tom/user/mq/CancelMQListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-service/shop-user-service/src/main/test/com/tom/test/OrderLogTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-api/src/main/java/com/tom/service/IPayService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-service/shop-order-service/src/main/java/com/tom/order/mq/PayMQListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-service/shop-pay-service/src/main/java/com/tom/pay/PayServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-service/shop-pay-service/src/main/java/com/tom/pay/mapper/TradeMqProducerTempMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-service/shop-pay-service/src/main/java/com/tom/pay/mapper/TradePayMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-service/shop-pay-service/src/main/java/com/tom/pay/service/impl/PayServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-service/shop-pay-service/src/test/java/com/tom/test/PayServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-web/shop-order-web/src/main/java/com/tom/orderweb/WebOrderApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-web/shop-order-web/src/main/java/com/tom/orderweb/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-web/shop-order-web/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-web/shop-pay-web/src/main/java/com/tom/payweb/PayWebApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-web/shop-pay-web/src/main/java/com/tom/payweb/controller/PayController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-web/shop-pay-web/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-api/src/main/java/com/tom/service/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-api/src/main/java/com/tom/service/IUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-service/shop-coupon-service/src/main/java/com/tom/coupon/mq/CancelMQListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service/shop-coupon-service/src/main/java/com/tom/coupon/mq/CancelMQListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-service/shop-goods-service/src/main/java/com/tom/goods/mq/CancelMQListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service/shop-goods-service/src/main/java/com/tom/goods/mq/CancelMQListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-service/shop-goods-service/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service/shop-goods-service/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-service/shop-goods-service/src/main/java/com/tom/goods/GoodsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service/shop-goods-service/src/main/java/com/tom/goods/GoodsApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-service/shop-order-service/src/main/java/com/tom/order/service/impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service/shop-order-service/src/main/java/com/tom/order/service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-service/shop-order-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service/shop-order-service/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shop-service/shop-order-service/src/main/test/com/tom/test/OrderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service/shop-order-service/src/main/test/com/tom/test/OrderTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-service/shop-user-service/src/main/java/com/tom/user/service/impl/IUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service/shop-user-service/src/main/java/com/tom/user/service/impl/IUserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-service/shop-user-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service/shop-user-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-service/shop-user-service/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service/shop-user-service/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-service/shop-order-service/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service/shop-order-service/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-service/shop-pay-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service/shop-pay-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-web/shop-order-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-web/shop-order-web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-web/shop-pay-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-web/shop-pay-web/pom.xml" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,8 +35,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="FxmlFile" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -57,27 +69,27 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="F:/学习资料/rocketmq/代码/shop-project/shop" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/shop-web/shop-pay-web/src/main/resources" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\lincya\project\MQShop\shop-parent\shop-web\shop-pay-web\src\main\resources" />
       <recent name="E:\study\project\MQShop\shop-parent\shop-service\shop-pay-service\src\main\resources" />
       <recent name="E:\study\project\MQShop\shop-parent\shop-service\shop-order-service\src\main\resources" />
       <recent name="E:\study\project\MQShop\shop-parent\shop-service\shop-user-service\src\main\resources" />
       <recent name="E:\study\project\MQShop\shop-parent\shop-service\shop-user-service\src\main\java\com\tom\mapper" />
-      <recent name="E:\study\project\MQShop\shop-parent\shop-service\shop-pay-service\src\main\java\com\tom\mapper" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.tom.pay.mapper" />
       <recent name="com.tom.order.mq" />
       <recent name="com.tom.user.mq" />
       <recent name="com.tom.pojo.pojo" />
       <recent name="com.tom.goods.mq" />
-      <recent name="com.tom" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.tom.service" />
@@ -89,37 +101,18 @@
         <option value="SpringBootApplicationConfigurationType" />
       </set>
     </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
-  <component name="RunManager" selected="JUnit.OrderTest.confirmOrder">
-    <configuration name="OrderTest.confirmOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="shop-order-service" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tom.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.tom.test" />
-      <option name="MAIN_CLASS_NAME" value="com.tom.test.OrderTest" />
-      <option name="METHOD_NAME" value="confirmOrder" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CouponApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="shop-coupon-service" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tom.coupon.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tom.coupon.CouponApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.PayServiceApplication">
     <configuration name="GoodsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="shop-goods-service" />
       <extension name="coverage">
@@ -133,55 +126,93 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="shop-user-service" />
+    <configuration name="OrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="shop-order-service" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tom.user.*" />
+          <option name="PATTERN" value="com.tom.order.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tom.user.UserApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tom.order.OrderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PayServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="shop-pay-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tom.pay.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tom.pay.PayServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PayWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="shop-pay-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tom.payweb.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tom.payweb.PayWebApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebOrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="shop-order-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tom.orderweb.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tom.orderweb.WebOrderApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.OrderTest.confirmOrder" />
-      <item itemvalue="Spring Boot.CouponApplication" />
       <item itemvalue="Spring Boot.GoodsApplication" />
-      <item itemvalue="Spring Boot.UserApplication" />
+      <item itemvalue="Spring Boot.OrderApplication" />
+      <item itemvalue="Spring Boot.PayWebApplication" />
+      <item itemvalue="Spring Boot.WebOrderApplication" />
+      <item itemvalue="Spring Boot.PayServiceApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.OrderTest.confirmOrder" />
+        <item itemvalue="Spring Boot.OrderApplication" />
+        <item itemvalue="Spring Boot.PayWebApplication" />
+        <item itemvalue="Spring Boot.WebOrderApplication" />
+        <item itemvalue="Spring Boot.PayServiceApplication" />
         <item itemvalue="Spring Boot.GoodsApplication" />
-        <item itemvalue="Spring Boot.UserApplication" />
-        <item itemvalue="Spring Boot.CouponApplication" />
       </list>
     </recent_temporary>
   </component>
   <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <option name="contentProportion" value="0.17008197" />
-          <treeState>
-            <expand>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-            </expand>
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@dba234b7" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@dba234b7" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@47af4c64" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+          </expand>
+          <select />
+        </treeState>
+      </serviceView>
     </option>
   </component>
   <component name="SshConsoleOptionsProvider">
@@ -206,6 +237,13 @@
       <workItem from="1594306475268" duration="2445000" />
       <workItem from="1594387758870" duration="3935000" />
       <workItem from="1594450797961" duration="8931000" />
+      <workItem from="1594475532833" duration="2816000" />
+      <workItem from="1594478972188" duration="633000" />
+      <workItem from="1594479621522" duration="665000" />
+      <workItem from="1594480353574" duration="214000" />
+      <workItem from="1594480586731" duration="309000" />
+      <workItem from="1594480914419" duration="6000" />
+      <workItem from="1594529722448" duration="17062000" />
     </task>
     <servers />
   </component>
@@ -336,10 +374,29 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/shop-service/shop-user-service/src/main/java/com/tom/user/service/impl/IUserServiceImpl.java</url>
-          <line>80</line>
+          <line>82</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/shop-service/shop-order-service/src/main/java/com/tom/order/mq/CancelMQListener.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/shop-service/shop-order-service/src/main/java/com/tom/order/service/impl/OrderServiceImpl.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/shop-service/shop-order-service/src/main/java/com/tom/order/service/impl/OrderServiceImpl.java</url>
+          <line>264</line>
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XPathView.XPathProjectComponent">
+    <history />
+    <find-history />
   </component>
 </project>

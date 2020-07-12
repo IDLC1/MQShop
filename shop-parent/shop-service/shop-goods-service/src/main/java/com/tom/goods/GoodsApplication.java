@@ -1,9 +1,11 @@
 package com.tom.goods;
 
+import com.tom.coupon.utils.IDWorker;
 import org.apache.dubbo.config.spring.context.annotation.EnableDubbo;
 import org.apache.dubbo.config.spring.context.annotation.EnableDubboConfig;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.Bean;
 import tk.mybatis.spring.annotation.MapperScan;
 
 /**

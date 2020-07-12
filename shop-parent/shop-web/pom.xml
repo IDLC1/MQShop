@@ -16,5 +16,16 @@
         <module>shop-pay-web</module>
     </modules>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.tom</groupId>
+            <artifactId>shop-api</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+    </dependencies>
 
 </project>
